@@ -1,1 +1,1 @@
-function validarIdade(a){return alert("BLA BLA"),a>=18}
+function validarIdade(a){return a>=18}var idade=17;validarIdade(idade)?console.log("Olá, bem vindo a nossa festa do Javascript!"):console.error("Barrado no baile do Javascript");
