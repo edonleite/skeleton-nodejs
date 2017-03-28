@@ -1,0 +1,18 @@
+{
+  "name": "portalv10",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Michael Douglas <michaeldouglas010790@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "assets/vendor",
+    "test",
+    "tests"
+  ]
+}
