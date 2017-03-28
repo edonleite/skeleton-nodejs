@@ -4,25 +4,29 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "lite-server",
+    "dev-node": "nodemon"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.15.2",
     "mustache": "^2.2.1",
-    "mustache-express": "^1.2.2"
+    "mustache-express": "^1.2.2",
+    "nodemon": "^1.11.0"
   },
-   "devDependencies": {
+  "devDependencies": {
     "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.0.3",
+    "gulp-image": "^2.7.5",
+    "gulp-imagemin": "^3.1.1",
     "gulp-sourcemaps": "^2.4.1",
     "gulp-uglify": "^2.1.0",
     "gulp-util": "^3.0.8",
     "gulp-watch": "^4.3.11",
     "imagemin-optipng": "^4.2.0",
-    "pump": "^1.0.2",
-    "gulp-clean-css": "^3.0.3",
-    "gulp-image": "^2.7.5",
-    "gulp-imagemin": "^3.1.1"
-   }
+    "lite-server": "^2.3.0",
+    "pump": "^1.0.2"
+  }
 }
