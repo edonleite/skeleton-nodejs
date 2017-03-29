@@ -1,1 +1,1 @@
-function validarIdade(a){return a>=18}var idade=17;validarIdade(idade)?console.log("Olá, bem vindo a nossa festa do Javascript!"):console.error("Barrado no baile do Javascript");
+$(document).ready(function(){$("#buscarEnderecoBTN").click(function(){var c=$("#CEP").val();if(""!=c){new BuscaEndereco(c).busca()}})});

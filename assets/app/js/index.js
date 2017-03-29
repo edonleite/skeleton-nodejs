@@ -1,12 +1,13 @@
-function validarIdade(idade)
-{
-    return (idade >= 18);
-}
+$(document).ready(function(){
+  var cep = null;
 
-var idade = 17;
+  $("#buscarEnderecoBTN").click(function(){
+    var cep = $("#CEP").val();
 
-if(validarIdade(idade)) {
-  console.log('Olá, bem vindo a nossa festa do Javascript!');
-} else {
-  console.error('Barrado no baile do Javascript');
-}
+    if(cep != "") {
+      var buscaEndereco = new BuscaEndereco(cep);
+
+      buscaEndereco.busca();
+    }
+  });
+});

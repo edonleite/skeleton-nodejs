@@ -12,11 +12,34 @@
     <link href="assets/css/style.css" rel="stylesheet">
   </head>
   <body>
-    Olá mundo!!!
+  <form>
+    <div class="form-group">
+      <label for="CEP">CEP</label>
+      <input type="number" class="form-control" id="CEP" placeholder="Digite seu CEP">
+    </div>
+
+    <div id="exibiEndereco">
+      <div class="form-group">
+        <label for="logradouro">Logradouro</label>
+        <input type="text" class="form-control" id="logradouro">
+      </div>
+      <div class="form-group">
+        <label for="bairro">Bairro</label>
+        <input type="text" class="form-control" id="bairro">
+      </div>
+      <div class="form-group">
+        <label for="localidade">Localidade</label>
+        <input type="text" class="form-control" id="localidade">
+      </div>
+    </div>
+
+    <button type="button" id="buscarEnderecoBTN" class="btn btn-default">Buscar Endereco</button>
+  </form>
 
    <script src="assets/vendor/jquery/dist/jquery.min.js"></script>
    <script src="assets/vendor/bootstrap/dist/js/bootstrap.min.js"></script>
    <!-- APP JS -->
+   <script src="assets/js/BuscaEndereco.js"></script>
    <script src="assets/js/index.js"></script>
  </body>
 </html>
