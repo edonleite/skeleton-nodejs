@@ -10,4 +10,6 @@ $(document).ready(function(){
       buscaEndereco.busca();
     }
   });
+
+  $( "#banner" ).load( "http://localhost:3000/banner" );
 });
